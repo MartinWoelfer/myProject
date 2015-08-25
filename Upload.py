@@ -16,9 +16,9 @@ class FileUpload(object):
     def upload(self, myFile):
         out = """<html>
 	            <body>
-		                myFile Size: %s kb<br />
-		                myFile filename: %s<br />
-		                myFile mime-type: %s
+                    myFile Size: %s kb<br />
+                    myFile filename: %s<br />
+                    myFile mime-type: %s
 	                </body>
                 </html>"""
         # Although this just counts the file length, it demonstrates
