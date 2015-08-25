@@ -1,0 +1,20 @@
+<html>
+<body>
+	<h2>Upload a file</h2>
+	<script type="text/javascript">
+	
+		// Check for the various File API support.
+		if (window.File && window.FileReader && window.FileList && window.Blob) {
+		// Great success! All the File APIs are supported.
+		} else {
+			alert('The File APIs are not fully supported in this browser.');
+		}
+	</script>
+	<form action="upload" method="post" enctype="multipart/form-data">
+		filename: <input id="file"type="file" name="myFile" value=""/><br />
+		<script type="text/javascript">
+		</script>
+		<input type="submit"/>
+	</form>
+</body>
+</html>
